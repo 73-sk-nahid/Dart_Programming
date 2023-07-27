@@ -21,7 +21,7 @@ void main() {
   print(x > y || x > y); //false (false & false)
 
   bool result;
-
+// using of "not - !" operator
   result = !(x > y); //not(x is greater then y)
   print('not(x is greater then y) $result'); //true
   result = !(x < y); //not(y is greater then x)
