@@ -19,4 +19,13 @@ void main() {
   print(x > y || y > x); //false (false & true)
   print(x < y || x > y); //false (true & false)
   print(x > y || x > y); //false (false & false)
+
+  bool result;
+
+  result = !(x > y); //not(x is greater then y)
+  print('not(x is greater then y) $result'); //true
+  result = !(x < y); //not(y is greater then x)
+  print('not(y is greater then x) $result'); //false
+  result = !(x == y); //not(x is equal to y)
+  print('not(x is equal to y) $result'); //false
 }
